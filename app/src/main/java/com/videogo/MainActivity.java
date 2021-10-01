@@ -155,9 +155,10 @@ public class MainActivity extends RootActivity {
 
     private void LoadDefaultSdkInitParams() {
         mInitParams = SdkInitParams.createBy(null);
-        mInitParams.appKey = "26810f3acd794862b608b6cfbc32a6b8";
+        mInitParams.appKey = "fd82f9a6f0154aa2aa9284ae7af25a5b";
         mInitParams.openApiServer = "https://open.ys7.com";
         mInitParams.openAuthApiServer = "https://openauth.ys7.com";
+
     }
 
     /**
@@ -413,14 +414,17 @@ public class MainActivity extends RootActivity {
 //            mAppKeyET.setText("26810f3acd794862b608b6cfbc32a6b8");
 //            mAccessTokenET.setText("at.77ytj1783a7bajs0a09u0a0u64tiolca-26k51q60pv-1sb9ipj-kxcdnnmap");
             // 李海涛appKey
-            mAppKeyET.setText("680948cc41c44fbaac23d8b47be4028b");
-            mAccessTokenET.setText("at.2xwvzh454swdqgj26jscn4cl6o71kd3r-77cacr5ymf-1befzkz-psipk4zq7");
+            //mAppKeyET.setText("680948cc41c44fbaac23d8b47be4028b");
+            //mAccessTokenET.setText("at.2xwvzh454swdqgj26jscn4cl6o71kd3r-77cacr5ymf-1befzkz-psipk4zq7");
             // 温氏appKey
 //            mAppKeyET.setText("5aeb97218dc24acd8003c8dd6f8055c0");
 //            mAccessTokenET.setText("at.9irsiwajbgyt3ka11gbxp1nf8shq0h67-9ri4e1i5i1-08f5vpv-yezskuhfu");
             // 程骏appKey
-            mAppKeyET.setText("fd82f9a6f0154aa2aa9284ae7af25a5b");
-            mAccessTokenET.setText("");
+            //mAppKeyET.setText("fd82f9a6f0154aa2aa9284ae7af25a5b");
+
+            //GM values
+            mAppKeyET.setText("c42cf1cf814d49afaf1642599f10f8e2");
+            mAccessTokenET.setText("ra.dun05uhcb29tekg18b1rvr7065bvt26w-1sdtdowv0v-0pmktm5-hjm9zkw4u");
 
             // 仅预置了appKey的区域才展示萤石账号登录按钮
             if (mCurrentServerArea.defaultOpenAuthAppKey != null) {
